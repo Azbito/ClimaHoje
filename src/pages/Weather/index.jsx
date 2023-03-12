@@ -56,16 +56,16 @@ export default function AppRouter() {
         <ul className="temperatures">
           <br />
           <h2>
-            Temperatura atual: <strong>{weather?.main?.temp}°</strong>
+            Temperatura atual: <strong>{weather?.main?.temp}°C</strong>
           </h2>
           <h2>
-            Temperatura máxima: <strong>{weather?.main?.temp_max}°</strong>
+            Temperatura máxima: <strong>{weather?.main?.temp_max}°C</strong>
           </h2>
           <h2>
-            Temperatura mínima: <strong>{weather?.main?.temp_min}°</strong>
+            Temperatura mínima: <strong>{weather?.main?.temp_min}°C</strong>
           </h2>
           <h2>
-            Sensação: <strong>{weather?.main?.feels_like}°</strong>
+            Sensação: <strong>{weather?.main?.feels_like}°C</strong>
           </h2>
           <h2>
             Pressão: <strong>{weather?.main?.pressure}hpa</strong>
